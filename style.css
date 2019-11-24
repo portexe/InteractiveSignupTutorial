@@ -1,0 +1,34 @@
+.form-container {
+  width: 650px;
+  margin: auto;
+  box-shadow: 2px 5px 10px gray;
+  margin-top: 50px;
+}
+.form-container h1 {
+  text-align: center;
+}
+.password-requirements {
+  width: 450px;
+  margin: auto;
+  margin-top: 25px;
+}
+.fulfilled-symbol {
+  display: inline;
+}
+.fulfilled-symbol:after {
+  content: 'X';
+}
+.requirement {
+  color: red;
+  font-size: 14px;
+  font-weight: 600;
+}
+.fulfilled {
+  color: green;
+}
+.fulfilled .fulfilled-symbol:after {
+  content: '\2713';
+}
+#submitBtn:disabled {
+  cursor: not-allowed;
+}
